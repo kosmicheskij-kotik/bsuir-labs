@@ -75,12 +75,12 @@ header h1
 	font-size: 1.5em;
 }
 
-section
+.news
 {
-	height: 28vh;
+	height: 36vh;
 }
 
-.section_name
+.section_news_name
 {
 	background-color: #27212C;
 	color: #9282A0;
@@ -91,23 +91,66 @@ section
 	height: 100%;
 	width: 71%;
 	padding-left: 9%;
-	line-height: 28vh;
+	line-height: 36vh;
 	vertical-align: middle;
 }
 
-.section_link
+.section_news_link
 {
 	background-color: #BC3183;
 	float: right;
 	height: 100%;
 	width: 20%;
 	text-align: center;
-	line-height: 28vh;
+	line-height: 36vh;
 	vertical-align: middle;
 }
 
-.section_link i
+.section_news_link i
 {
 	color: #FFFFFF;
 	font-size: 3em;
+}
+
+.pictures
+{
+	height: 34vh;
+	display: flex;
+}
+
+.section_pictures_link
+{
+	background-color: #5B0FA1;
+	float: left;
+	height: 100%;
+	width: 32%;
+	text-align: center;
+	line-height: 34vh;
+	vertical-align: middle;
+}
+
+.section_pictures_link i
+{
+	color: #FFFFFF;
+	font-size: 3em;
+}
+.picture_1, .picture_2
+{
+	width: 34%;
+	margin: 0;
+	overflow: hidden;
+}
+
+.picture_1 img
+{
+	width: 100%;
+	height: auto;
+	float: left;
+}
+
+.picture_2 img
+{
+	width: 100%;
+	height: auto;
+	float: right;
 }
