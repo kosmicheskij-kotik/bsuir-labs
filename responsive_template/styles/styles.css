@@ -114,7 +114,6 @@ header h1
 
 .pictures
 {
-	height: 34vh;
 	display: flex;
 }
 
@@ -122,23 +121,26 @@ header h1
 {
 	background-color: #5B0FA1;
 	float: left;
-	height: 100%;
+	height: auto;
 	width: 32%;
 	text-align: center;
-	line-height: 34vh;
+	line-height: 100%;
 	vertical-align: middle;
+	position: relative;
 }
 
 .section_pictures_link i
 {
 	color: #FFFFFF;
 	font-size: 3em;
+	position: absolute;
+	top: 45%;
 }
+
 .picture_1, .picture_2
 {
 	width: 34%;
 	margin: 0;
-	overflow: hidden;
 }
 
 .picture_1 img
@@ -153,4 +155,58 @@ header h1
 	width: 100%;
 	height: auto;
 	float: right;
+}
+
+footer h1
+{
+	color: #0990A9;
+	font-size: 1.8em;
+	font-weight: 400;
+	padding-top: 5%;
+	margin: 0; 
+	padding-left: 9%;
+}
+
+footer
+{
+	display: inline-block;
+	background-color: #EBEBEB;
+	width: 100%;
+}
+
+.footer_content
+{
+	display: flex;
+	width: 88%;
+	padding-left: 6%;
+	padding-right: 6%;
+}
+
+.footer_content p
+{
+	width: 50%;
+	padding-left: 3%;
+	padding-right: 3%;
+	padding-top: 3%;
+	padding-bottom: 15%;
+	letter-spacing: 0.05em;
+	line-height: 1.8;
+	color: #515151;
+	font-weight: 500;
+	margin: 0;
+}
+
+@media screen and (max-width: 640px)
+{
+	.nav_large
+	{
+		display: none;
+	}
+
+	.section_pictures_link,
+	.picture_1,
+	.picture_2
+	{
+		width: 100%;
+	}
 }
