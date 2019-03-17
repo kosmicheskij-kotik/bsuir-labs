@@ -74,3 +74,40 @@ header h1
 	color: #FFFFFF;
 	font-size: 1.5em;
 }
+
+section
+{
+	height: 28vh;
+}
+
+.section_name
+{
+	background-color: #27212C;
+	color: #9282A0;
+	font-size: 1.8em;
+	font-weight: 400;
+	letter-spacing: 0.05em;
+	float: left;
+	height: 100%;
+	width: 71%;
+	padding-left: 9%;
+	line-height: 28vh;
+	vertical-align: middle;
+}
+
+.section_link
+{
+	background-color: #BC3183;
+	float: right;
+	height: 100%;
+	width: 20%;
+	text-align: center;
+	line-height: 28vh;
+	vertical-align: middle;
+}
+
+.section_link i
+{
+	color: #FFFFFF;
+	font-size: 3em;
+}
