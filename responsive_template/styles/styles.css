@@ -38,7 +38,7 @@ header
 	display: table;
 	height: 80vh;
 	width: 100%;
-	background-color: #10A8BD;
+	background: linear-gradient(to right, #16B0C3, #0990A9);
 }
 
 .header_content
