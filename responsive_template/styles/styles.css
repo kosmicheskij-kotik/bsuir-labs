@@ -1,2 +1,76 @@
-body{
+body
+{
+	margin: 0;
+	font-family: "Roboto";
+}
+
+a
+{
+	text-decoration: none;
+}
+
+nav 
+{
+	background-color: #373C3F;
+	height: 15vh;
+	padding-left: 40px;
+}
+
+nav a
+{
+	text-transform: uppercase;	
+	color: #EBEBEB;
+	padding: 15px;
+	margin: auto 0;
+	vertical-align: middle;
+	line-height: 15vh;
+	font-size: 1em;
+	font-weight: 500;
+}
+
+nav a:hover
+{
+	color: #FFFFFF;
+}
+
+header
+{
+	display: table;
+	height: 80vh;
+	width: 100%;
+	background-color: #10A8BD;
+}
+
+.header_content
+{
+	display: table-cell;
+	vertical-align: middle;
+}
+
+header a
+{
+	display: inline-block;
+	margin-left: 9%;
+	width: 70%;
+}
+
+header h1
+{
+	color: #FFFFFF;
+	font-weight: 500;
+	font-size: 4em;
+}
+
+.header_link
+{
+	color: #ADD6DF;
+	font-weight: 500;
+	font-size: 2em;
+}
+
+.header_link i
+{
+	float: right;
+	color: #FFFFFF;
+	font-size: 1.5em;
 }
