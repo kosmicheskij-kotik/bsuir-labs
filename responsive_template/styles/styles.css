@@ -21,7 +21,7 @@ nav div.nav_large a {
 	margin: auto 0;
 	vertical-align: middle;
 	line-height: 15vh;
-	font-size: 1em;
+	font-size: 1.8vw;
 	font-weight: 500;
 }
 
@@ -39,7 +39,7 @@ nav div.nav_small span{
 	padding-left: 25px;
 	vertical-align: middle;
 	line-height: 10vh;
-	font-size: 1.3em;
+	font-size: 3vw;
 	font-weight: 500;
 	letter-spacing: 0.03em;
 }
@@ -54,7 +54,7 @@ nav div.nav_small span{
 	color: #FFFFFF;
 }
 
-nav a:hover {
+nav div.nav_large a: hover {
 	color: #FFFFFF;
 }
 
@@ -79,25 +79,26 @@ header a {
 	height: 100%;
 	display: inline-block;
 	margin-left: 9%;
-	width: 100%;
+	width: 70%;
 }
 
 header h1 {
 	color: #FFFFFF;
 	font-weight: 500;
-	font-size: 4em;
+	font-size: 6vw;
 }
 
 .header_link {
 	color: #ADD6DF;
 	font-weight: 500;
-	font-size: 2em;
+	font-size: 3vw;
 }
 
 .header_link i {
 	float: right;
 	color: #FFFFFF;
-	font-size: 1.5em;
+	padding-right: 5vw;
+	font-size: 4vw;
 }
 
 /*News section*/
@@ -109,7 +110,7 @@ header h1 {
 
 .section_news_name {
 	color: #9282A0;
-	font-size: 1.8em;
+	font-size: 3.5vw;
 	font-weight: 400;
 	letter-spacing: 0.05em;
 	float: left;
@@ -174,7 +175,7 @@ header h1 {
 /*Footer section*/
 footer h1 {
 	color: #0990A9;
-	font-size: 1.8em;
+	font-size: 3.5vw;
 	font-weight: 400;
 	padding-top: 5%;
 	margin: 0; 
@@ -231,7 +232,7 @@ footer {
 	}
 
 	.section_pictures_link {
-		height: 50vh;
+		height: 70vh;
 		width: 100%;
 	}
 
