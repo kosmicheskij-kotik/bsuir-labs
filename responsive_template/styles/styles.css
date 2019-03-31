@@ -236,20 +236,15 @@ footer {
 
 	.picture_1, .picture_2 {
 		width: 100%;
-		margin: 0;
+		margin: 0 0 -2% 0;
 	}
 
 	header {
-		/*display: table;*/
-		/*position: relative;*/
 		height: 50vh;
-		/*width: 100%;*/
-		/*background: linear-gradient(to right, #16B0C3, #0990A9);*/
 	}
 }
 
 
 
 
-/*
-попытаться убрать белые промежутки между картинками*/
+/*попытаться убрать белые промежутки между картинками*/
