@@ -61,16 +61,14 @@ nav div.nav_large a: hover {
 /*Header section*/
 header {
 	position: relative;
-	height: 81vh;
+	height: 80vh;
 	width: 100%;
 	background: linear-gradient(to right, #16B0C3, #0990A9);
 }
 
 .header_content {
-	height: 100%;
 	width: 100%;
 	position: absolute;
-	/*Здесь какая-то хуйня, она неправильно работает*/
 	top: 50%;
 	transform: translateY(-50%);
 }
@@ -240,4 +238,18 @@ footer {
 		width: 100%;
 		margin: 0;
 	}
+
+	header {
+		/*display: table;*/
+		/*position: relative;*/
+		height: 50vh;
+		/*width: 100%;*/
+		/*background: linear-gradient(to right, #16B0C3, #0990A9);*/
+	}
 }
+
+
+
+
+/*
+попытаться убрать белые промежутки между картинками*/
